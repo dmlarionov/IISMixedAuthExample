@@ -1,0 +1,31 @@
+﻿@using System.Security.Claims;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Authentication Test</h2>
+<h3>Primary Identity</h3>
+
+<div>ClaimsPrincipal.Current.Identity.IsAuthenticated = @ClaimsPrincipal.Current.Identity.IsAuthenticated</div>
+<div>ClaimsPrincipal.Current.Identity.AuthenticationType = @ClaimsPrincipal.Current.Identity.AuthenticationType</div>
+<div>ClaimsPrincipal.Current.Identity.Name = @ClaimsPrincipal.Current.Identity.Name</div>
+
+<h3>All Identities</h3>
+<ul>
+@foreach (var identity in ClaimsPrincipal.Current.Identities)
+{
+    <li>
+        <div>ClaimsPrincipal.Current.Identity.IsAuthenticated = @ClaimsPrincipal.Current.Identity.IsAuthenticated</div>
+        <div>ClaimsPrincipal.Current.Identity.AuthenticationType = @ClaimsPrincipal.Current.Identity.AuthenticationType</div>
+        <div>ClaimsPrincipal.Current.Identity.Name = @ClaimsPrincipal.Current.Identity.Name</div>
+    </li>
+}
+</ul>
+
+<h4>All Claims</h4>
+<ul>
+@foreach (var claim in ClaimsPrincipal.Current.Claims)
+{
+    <li>@claim.Type = @claim.Value</li>
+}
+</ul>
