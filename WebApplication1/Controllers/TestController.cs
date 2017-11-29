@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Authentication;
 using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
@@ -15,17 +16,32 @@ namespace WebApplication1.Controllers
             return View("AuthInfo");
         }
 
-        // GET: Test/Restricted (Windows Authentication due to <authentication mode="Windows"/>)
-        public ActionResult Restricted()
+        // GET: Test/WinAuth
+        public ActionResult WinAuth()
         {
             return View("AuthInfo");
         }
 
-        // GET: Test/Restricted2 (Federated Authentication due to ?? NEED DIFFERENT NotAuthorized EXCEPTION PROCESSING)
+        // GET: Test/FedAuth1
         [Authorize]
-        public ActionResult Restricted2()
+        public ActionResult FedAuth1()
         {
             return View("AuthInfo");
+        }
+
+        // GET: Test/FedAuth2
+        public ActionResult FedAuth2()
+        {
+            if (!ClaimsPrincipal.Current.Identity.IsAuthenticated)
+                throw new AuthenticationException();
+            return View("AuthInfo");
+        }
+
+
+        // GET: Test/FedAuth3
+        public ActionResult FedAuth3()
+        {
+            return new HttpUnauthorizedResult();
         }
     }
 }

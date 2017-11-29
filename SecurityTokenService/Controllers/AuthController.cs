@@ -17,7 +17,12 @@ namespace SecurityTokenService.Controllers
             
             if (action == SecurityTokenServiceConstants.WSFederation.Actions.SignIn)
             {
-                // setup principal
+                // construct identity
+                var ci = new ClaimsIdentity();
+                ci.AddClaim(new Claim(ClaimTypes.Name, "Mr. Smith"));
+                ci.AddClaim(new Claim(ClaimTypes.Email, "SomeOneWhoYouTrust@localhost"));
+
+                // construct principal
                 ClaimsPrincipal principal = new ClaimsPrincipal(new ClaimsIdentity());
 
                 // generate token
@@ -31,7 +36,7 @@ namespace SecurityTokenService.Controllers
             if (returnUrl != null)
                 return Redirect(returnUrl);
             else
-                return new ContentResult() { Content = string.Empty, ContentType = "text/html" };
+                return new ContentResult() { Content = "Security Token Service is running.", ContentType = "text/html" };
         }
     }
 }

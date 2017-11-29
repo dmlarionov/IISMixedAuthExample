@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>\\token1\c$\inetpub\Test</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\WebApplication1</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -22,7 +22,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>03/08/2014 21:33:56</publishTime>
+      <publishTime>03/08/2014 20:33:56</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -60,6 +60,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
+    <File Include="bin/Security.SimpleWebToken.dll">
+      <publishTime>11/29/2017 18:56:13</publishTime>
+    </File>
+    <File Include="bin/Security.SimpleWebToken.pdb">
+      <publishTime>11/29/2017 18:56:13</publishTime>
+    </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
@@ -67,7 +73,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:02:18</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>11/02/2014 16:26:04</publishTime>
+      <publishTime>11/02/2014 15:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
       <publishTime>01/28/2015 04:02:32</publishTime>
@@ -82,37 +88,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/WebApplication1.dll">
-      <publishTime>11/21/2017 20:21:39</publishTime>
+      <publishTime>11/29/2017 19:54:46</publishTime>
     </File>
     <File Include="bin/WebApplication1.pdb">
-      <publishTime>11/21/2017 20:21:39</publishTime>
+      <publishTime>11/29/2017 19:54:46</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:05</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:05</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>11/20/2017 10:46:05</publishTime>
@@ -121,67 +127,64 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/21/2017 18:56:04</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:06</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:07</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:07</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:07</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:11</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:11</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:12</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:12</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:10</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:11</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:11</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:11</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:05</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:05</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 10:46:13</publishTime>
     </File>
     <File Include="Views/Test/AuthInfo.cshtml">
       <publishTime>11/21/2017 18:02:51</publishTime>
     </File>
-    <File Include="Views/Test/AuthTest1.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
-    </File>
     <File Include="Views/Test/Index.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/20/2017 11:01:57</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/20/2017 10:46:05</publishTime>
@@ -190,7 +193,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/21/2017 17:42:09</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/21/2017 20:20:32</publishTime>
+      <publishTime>11/29/2017 19:54:47</publishTime>
     </File>
   </ItemGroup>
 </Project>
