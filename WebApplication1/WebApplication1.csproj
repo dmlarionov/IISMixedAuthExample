@@ -122,6 +122,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Attributes\WindowsAuthorizeAttribute.cs" />
+    <Compile Include="Attributes\FederativeAuthorizeAttribute.cs" />
     <Compile Include="Configuration\FederationAuthenticationExclusions\Item.cs" />
     <Compile Include="Configuration\FederationAuthenticationExclusions\Items.cs" />
     <Compile Include="Configuration\FederationAuthenticationExclusions\Section.cs" />
@@ -130,6 +132,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Modules\FederationAuthenticationModule.cs" />
+    <Compile Include="Modules\SessionAuthenticationModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

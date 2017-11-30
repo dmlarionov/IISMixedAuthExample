@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Web.Mvc;
+using WebApplication1.Attributes;
 
 namespace WebApplication1.Controllers
 {
     public class TestController : Controller
     {
-        // GET: Test/Open - allow unauthenticated users
+        // GET: Test/Open - allow any users, authenticated and not
         public ActionResult Open()
         {
             return View("AuthInfo");
@@ -30,7 +31,7 @@ namespace WebApplication1.Controllers
             return View("AuthInfo");
         }
 
-        // GET: Test/FedAuth2 - protected by MVC attribute
+        // GET: Test/FedAuth2 - protected by standard MVC attribute
         [Authorize]
         public ActionResult FedAuth2()
         {

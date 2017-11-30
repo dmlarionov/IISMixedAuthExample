@@ -22,7 +22,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>08/03/2014 20:33:56</publishTime>
+      <publishTime>03/08/2014 20:33:56</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -61,10 +61,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/Security.SimpleWebToken.dll">
-      <publishTime>11/29/2017 18:56:13</publishTime>
+      <publishTime>11/21/2017 20:00:04</publishTime>
     </File>
     <File Include="bin/Security.SimpleWebToken.pdb">
-      <publishTime>11/29/2017 18:56:13</publishTime>
+      <publishTime>11/21/2017 20:00:04</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -73,7 +73,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:02:18</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>02/11/2014 15:26:04</publishTime>
+      <publishTime>11/02/2014 15:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
       <publishTime>01/28/2015 04:02:32</publishTime>
@@ -88,10 +88,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/WebApplication1.dll">
-      <publishTime>11/30/2017 12:18:34</publishTime>
+      <publishTime>11/30/2017 15:41:27</publishTime>
     </File>
     <File Include="bin/WebApplication1.pdb">
-      <publishTime>11/30/2017 12:18:34</publishTime>
+      <publishTime>11/30/2017 15:41:27</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>07/17/2013 17:03:52</publishTime>
@@ -193,7 +193,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/21/2017 17:42:09</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/30/2017 12:18:34</publishTime>
+      <publishTime>11/30/2017 15:46:59</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -12,6 +12,8 @@ namespace WebApplication1.Modules
         protected override void OnEndRequest(object sender, EventArgs args)
         {
             HttpApplication httpApplication = (HttpApplication)sender;
+
+            // step over federative authentication if URL in federationAuthenticationExclusions section of Web.config
             foreach (Item item in Section.Default.Items)
             {
                 if (httpApplication.Request.RawUrl.StartsWith(item.Url, StringComparison.InvariantCultureIgnoreCase))
