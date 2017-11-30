@@ -23,7 +23,7 @@ namespace SecurityTokenService.Controllers
                 ci.AddClaim(new Claim(ClaimTypes.Email, "SomeOneWhoYouTrust@localhost"));
 
                 // construct principal
-                ClaimsPrincipal principal = new ClaimsPrincipal(new ClaimsIdentity());
+                ClaimsPrincipal principal = new ClaimsPrincipal(ci);
 
                 // generate token
                 var requestMessage = (SignInRequestMessage)WSFederationMessage.CreateFromUri(Request.Url);

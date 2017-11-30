@@ -18,18 +18,5 @@ namespace WebApplication1
         {
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
-
-        protected void Application_Error()
-        {
-            var currentException = Server.GetLastError();
-            if (currentException != null && currentException is System.Security.Authentication.AuthenticationException)
-            {
-                HttpContext.Current.Server.ClearError();
-
-                // Federative authentication by Security Token Service
-                var WSFedAuthModule = (HttpContext.Current.ApplicationInstance.Modules.Get("WSFederationAuthenticationModule") as WSFederationAuthenticationModule);
-                WSFedAuthModule?.RedirectToIdentityProvider("passive", HttpContext.Current.Request.RawUrl, true);
-            }
-        }
     }
 }
