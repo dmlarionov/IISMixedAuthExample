@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h2>Federated & Windows authentication example</h2>
+        <p>This is applicable for web sites with federative customer SSO, and windows-authorized access to diagnostic / administrative pages.</p>
+        <p>Open <a href="/test/Open">/test/Open</a> to make sure, that current principal is unauthenticated.</p>
+        <p>Open <a href="/test/WinAuth1">/test/WinAuth1</a> or <a href="/test/WinAuth2">/test/WinAuth2</a> to pass windows authentication and see principal.</p>
+        <p>Open <a href="/test/FedAuth1">/test/FedAuth1</a> or <a href="/test/FedAuth2">/test/FedAuth2</a> to pass federated authentication and see principal.</p>
+        <p>Open <a href="/test/Open">/test/Open</a> to make sure, that federatively authenticated user keeps authenticated on URLs, that doesn't require authorization.</p>        
+    </div>
+    <div>
+        <h2>How it works?</h2>
+        <p>Federative authentication modules are inherited to extend and skip authentication for URLs, that should require windows authentication.</p>
+        <p>See in Web.conf what kind of WSFederationAuthenticationModule and SessionAuthenticationModule are added to system.webServer/modules section.</p>
+        <p>Also, look how federationAuthenticationExclusions section is added and used in Web.conf.</p>
+        <p>The present approach supports windows authentication with Negotiate / Kerberos, because it doesn't play with respose codes, but just skips federative authentication for some URLs.</p>
+    </div>
+</body>
+</html>

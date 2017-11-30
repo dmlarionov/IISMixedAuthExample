@@ -6,6 +6,12 @@ namespace WebApplication1.Controllers
 {
     public class TestController : Controller
     {
+        // GET: /
+        public ActionResult Info()
+        {
+            return View("Info");
+        }
+
         // GET: Test/Open - allow any users, authenticated and not
         public ActionResult Open()
         {

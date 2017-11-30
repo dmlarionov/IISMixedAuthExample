@@ -22,7 +22,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>03/08/2014 20:33:56</publishTime>
+      <publishTime>08/03/2014 20:33:56</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -60,6 +60,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
+    <File Include="bin/ru/System.Web.Helpers.resources.dll">
+      <publishTime>01/28/2015 04:04:40</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Mvc.resources.dll">
+      <publishTime>01/28/2015 04:02:30</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Razor.resources.dll">
+      <publishTime>01/28/2015 04:02:40</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>01/28/2015 04:04:40</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>01/28/2015 04:04:40</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.WebPages.resources.dll">
+      <publishTime>01/28/2015 04:04:40</publishTime>
+    </File>
     <File Include="bin/Security.SimpleWebToken.dll">
       <publishTime>11/21/2017 20:00:04</publishTime>
     </File>
@@ -73,7 +91,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:02:18</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>11/02/2014 15:26:04</publishTime>
+      <publishTime>02/11/2014 15:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
       <publishTime>01/28/2015 04:02:32</publishTime>
@@ -88,10 +106,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/WebApplication1.dll">
-      <publishTime>11/30/2017 15:41:27</publishTime>
+      <publishTime>11/30/2017 16:05:29</publishTime>
     </File>
     <File Include="bin/WebApplication1.pdb">
-      <publishTime>11/30/2017 15:41:27</publishTime>
+      <publishTime>11/30/2017 16:05:29</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>07/17/2013 17:03:52</publishTime>
@@ -124,7 +142,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2017 10:46:05</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>11/21/2017 18:56:04</publishTime>
+      <publishTime>11/30/2017 15:51:22</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>11/20/2017 10:46:06</publishTime>
@@ -186,6 +204,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Test/Index.cshtml">
       <publishTime>11/20/2017 11:01:57</publishTime>
     </File>
+    <File Include="Views/Test/Info.cshtml">
+      <publishTime>11/30/2017 16:26:17</publishTime>
+    </File>
     <File Include="Views/Web.config">
       <publishTime>11/20/2017 10:46:05</publishTime>
     </File>
@@ -193,7 +214,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/21/2017 17:42:09</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/30/2017 15:46:59</publishTime>
+      <publishTime>11/30/2017 16:12:13</publishTime>
     </File>
   </ItemGroup>
 </Project>

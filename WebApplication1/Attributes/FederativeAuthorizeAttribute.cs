@@ -7,6 +7,11 @@ using System.Web.Mvc;
 
 namespace WebApplication1.Attributes
 {
+    /* 
+     * NOT USED TO IMPLEMENT MIXED AUTH
+     * I keep it here just for example of how attribute can be customized
+     */
+
     /// <summary>
     /// Experimental attribute, that specifies controller or action method federated-only authentication
     /// </summary>
