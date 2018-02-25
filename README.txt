@@ -1,3 +1,5 @@
+Read article at http://larionov.pro/en/blog/2017/mixing-auth-iis/
+
 1) Execute as administrator:
 
 %windir%\system32\inetsrv\appcmd.exe unlock config /section:windowsAuthentication
