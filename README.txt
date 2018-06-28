@@ -1,4 +1,4 @@
-Read article at http://larionov.pro/en/blog/2017/mixing-auth-iis/
+Read article at https://larionov.pro/en/articles/2017/mixing-auth-iis/
 
 1) Execute as administrator:
 
